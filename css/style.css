@@ -7,16 +7,14 @@ section {
 }
 
 #splash {
-  background: url("https://source.unsplash.com/-unJ-C_HBc8");
+  background-image: url("https://source.unsplash.com/WLUHO9A_xik");
   background-repeat: no-repeat;
   background-size: initial;
   background-position: center;
-  border: 1px solid blue;
 }
-#splash .container {
-  height: 30rem;
-  color: white;
-  border: 1px solid red;
+#splash .row {
+  height: 150px;
+  border: 1px solid blue;
 }
 
 .slick-prev:before,
