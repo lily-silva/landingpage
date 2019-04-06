@@ -1,5 +1,30 @@
-h1 {
-  background-color: blue;
+#splash {
+  margin-bottom: 6rem;
+}
+#splash .container {
+  height: 40rem;
+  margin-top: 3rem;
+  background-image: url("https://source.unsplash.com/cPeCmVChZu0");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+#slick {
+  margin: 6rem;
+}
+#slick .slick-prev:before,
+#slick .slick-next:before {
+  color: grey;
+}
+
+#thing {
+  margin-bottom: 6rem;
+}
+#thing img {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
