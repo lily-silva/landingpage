@@ -1,3 +1,7 @@
+body {
+  overflow-x: hidden;
+}
+
 #splash {
   margin-bottom: 6rem;
 }

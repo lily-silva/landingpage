@@ -1,46 +1,48 @@
-#splash {
-    margin-bottom: 6rem;
+body {
+  overflow-x: hidden;
+}
 
-    .container {
-        height: 40rem;
-        margin-top: 3rem;
-        background-image: url('https://source.unsplash.com/cPeCmVChZu0');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        color: white;
-    }
+#splash {
+  margin-bottom: 6rem;
+
+  .container {
+    height: 40rem;
+    margin-top: 3rem;
+    background-image: url("https://source.unsplash.com/cPeCmVChZu0");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+  }
 }
 
 .mg-top {
-    margin-top: 6rem;
+  margin-top: 6rem;
 }
 
 #slick {
-    margin: 2rem;
+  margin: 2rem;
 
-    .slick-prev:before,
-    .slick-next:before {
-        color: grey;
-    }
+  .slick-prev:before,
+  .slick-next:before {
+    color: grey;
+  }
 
-    @media (min-width: 768px) {
-        margin: 6rem;
-    }
+  @media (min-width: 768px) {
+    margin: 6rem;
+  }
 }
 
 #thing {
-    margin-bottom: 6rem;
+  margin-bottom: 6rem;
 
-    img {
-        width: 100%;
-        height: 100%;
-    }
-
-
+  img {
+    width: 100%;
+    height: 100%;
+  }
 }
 
 footer {
-    height: 8rem;
-    background-color: grey;
+  height: 8rem;
+  background-color: grey;
 }
