@@ -16,11 +16,16 @@
 }
 
 #slick {
-  margin: 6rem;
+  margin: 2rem;
 }
 #slick .slick-prev:before,
 #slick .slick-next:before {
   color: grey;
+}
+@media (min-width: 768px) {
+  #slick {
+    margin: 6rem;
+  }
 }
 
 #thing {
